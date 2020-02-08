@@ -1,29 +1,56 @@
-/* font-family: 'Oswald', sans-serif;
-font-family: 'Raleway', sans-serif; */
-
 body {
   max-width: 800px;
   margin: auto;
   background-color: #F5F5F5;
 }
 
-#header {
-  padding: 25px 0;
+.container {
+  width: 100%;
+  padding: 0;
 }
 
-#avatar {
-  max-width: 275px;
-  height: auto;
-  border: 2px solid #165c16;
-  margin: 20px 0;
-}
-
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Oswald', sans-serif;
 }
 
 p {
-  font-family: 'Raleway', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+}
+
+#header {
+  width: 100%;
+  text-align: justify;
+  margin: 80px 0 80px 0;
+}
+
+#welcome {
+  text-align: justify;
+  padding: 0 0 60px 0;
+}
+
+h1 {
+  font-size: 135px;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+}
+
+h1::first-letter {
+  margin: 0 0 0 -8px;
+}
+
+hr {
+  display: block;
+  border: 2px solid black;
+  margin: 0;
+}
+
+h2 {
+  font-size: 52px;
+  margin: 4px 0 8px 0;
+}
+
+h3 {
+  margin: 0 0 12px 0;
 }
 
 a {
@@ -34,12 +61,12 @@ a:hover {
   color: #165c16;
 }
 
-a:visited {
-  color: #259b25;
+#projects {
+  padding: 0 0 40px 0;
 }
 
 .project {
-  padding: 25px 0;
+  padding: 0 0 35px 0;
 }
 
 .app-screenshot {
@@ -51,4 +78,24 @@ a:visited {
 
 .contrast-text {
   color: #165c16;
+}
+
+#about {
+  width: 100%;
+  padding: 0 0 100px 0;
+}
+
+#avatar {
+  max-width: 125px;
+  height: 125px;
+  border: 2px solid #165c16;
+}
+
+#connect a:hover {
+  text-decoration: none;
+}
+
+#connect img {
+  max-width: 40px;
+  height: auto;
 }
